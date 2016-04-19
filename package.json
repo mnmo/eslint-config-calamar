@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-calamar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "code styles used by calamar.io",
   "main": "index.js",
   "scripts": {
