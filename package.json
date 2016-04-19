@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-calamar",
+  "version": "1.0.0",
+  "description": "code styles used by calamar.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calamar-io/eslint-config-calamar.git"
+  },
+  "keywords": [
+    "eslintrc",
+    "lint",
+    "config",
+    "eslint"
+  ],
+  "author": "Fabricio C Zuardi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calamar-io/eslint-config-calamar/issues"
+  },
+  "homepage": "https://github.com/calamar-io/eslint-config-calamar#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-plugin-import": "^1.5.0"
+  }
+}
