@@ -1,8 +1,8 @@
 module.exports = {
     extends: 'airbnb/base',
     rules: {
-        indent: ['error', 4],
-        'comma-dangle': ['error', 'never'],
+        indent: [2, 4],
+        'comma-dangle': [2, 'never'],
         'no-console': 0
     }
 };
