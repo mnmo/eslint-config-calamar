@@ -1,6 +1,7 @@
 # eslint-config-mnmo
 
-[Shareable eslint config][eslintconfig] to be used by mnmo.com.br repos.
+[Shareable eslint config][eslintconfig] to be used by [mnmo][mnmo] Javascript
+projects.
 
 # Usage
 
@@ -16,6 +17,7 @@ yarn add --dev eslint-config-mnmo
 ```
 
 or, in ```package.json```, add
+
 ```json
   "eslintConfig": {
     "extends": "mnmo"
@@ -30,6 +32,7 @@ influenced by [Elm Style Guide][elmstyle]
 [eslint-config-calamar][eslint-config-calamar] which is a great base config
 ([airbnb] with minor adjustments)
 
+[mnmo]: http://www.mnmo.com.br/
 [elmstyle]: http://elm-lang.org/docs/style-guide
 [eslintconfig]: http://eslint.org/docs/developer-guide/shareable-configs
 [eslint-config-calamar]: https://github.com/calamar-io/eslint-config-calamar
