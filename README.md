@@ -15,13 +15,11 @@ yarn add --dev eslint-config-mnmo
 }
 ```
 
-or, in ```package.json``, add
+or, in ```package.json```, add
 ```json
-  ...
   "eslintConfig": {
     "extends": "mnmo"
-  },
-  ...
+  }
 ```
 
 # Changelog
