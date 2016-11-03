@@ -13,7 +13,12 @@ module.exports = {
         ],
         'no-console': 0,
         'arrow-parens': 0,
-        'babel/arrow-parens': [2, 'as-needed']
+        'babel/arrow-parens': [2, 'as-needed'],
+        "array-bracket-spacing": [
+            "error",
+            "always"
+        ]
+
     },
     parserOptions: {
         ecmaFeatures: {
