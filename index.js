@@ -9,7 +9,8 @@ module.exports = {
         'comma-dangle': [2, 'never'],
         "comma-style": [
             "error",
-            "first"
+            "first",
+            { "exceptions": { "ArrayExpression": true } }
         ],
         'no-console': 0,
         'arrow-parens': 0,
